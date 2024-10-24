@@ -1,0 +1,36 @@
+/* App.css */
+.container {
+  text-align: center; /* Center-align all text */
+  margin: 20px;
+}
+
+.loading,
+.error {
+  font-size: 20px;
+  color: red;
+}
+
+.posts-list {
+  list-style-position: inside; /* Ensure numbers are inside the list item */
+  padding-left: 0; /* Remove default padding */
+  margin: 0 auto; /* Center align the list */
+  max-width: 800px; /* Optional: Limit the width */
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  font-size: 18px;
+  line-height: 1.5;
+}
